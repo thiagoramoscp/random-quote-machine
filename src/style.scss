@@ -1,0 +1,43 @@
+*, *::before, *::after {
+  box-sizing: inherit;
+  padding: 0px;
+  margin: 0px;
+}
+html, body {
+  box-sizing: border-box;
+}
+body {
+  background-color: #EEE;
+}
+
+.quote-box {
+  border-radius: 4px;
+  background-color: #999;
+  width: 90vw;
+  margin: auto;
+  margin-top: 30vh;
+  padding: 10px 20px;
+}
+h1 {
+  font-size: 2rem;
+}
+p {
+  margin: 15px 0px;
+}
+.icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#new-quote {
+  display: block;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+@media (min-width: 1000px) {
+  .quote-box {
+    width:900px;
+  }
+}
